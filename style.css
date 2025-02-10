@@ -27,6 +27,9 @@ header {
   z-index: 1;
   color: white;
   text-shadow: 3px 3px 3px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hero {
   background-color: white;
@@ -140,4 +143,23 @@ div.email p {
 }
 .contacts-icons.footer {
   justify-content: left;
+}
+@media (max-width: 1000px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    margin-top: 5px;
+  }
+  .name {
+    font-size: 2.5rem;
+    margin: auto;
+  }
+  footer {
+    display: grid;
+    justify-items: center;
+  }
+}
+@media (max-width: 1000px) {
 }
