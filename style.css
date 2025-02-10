@@ -145,6 +145,15 @@ div.email p {
   justify-content: left;
 }
 @media (max-width: 1000px) {
+  body {
+    background-image: linear-gradient(
+      180deg,
+      rgb(92, 114, 133) 24%,
+
+      white 28%,
+      white 100%
+    );
+  }
   .intro {
     display: flex;
     flex-direction: column;
@@ -160,6 +169,4 @@ div.email p {
     display: grid;
     justify-items: center;
   }
-}
-@media (max-width: 1000px) {
 }
